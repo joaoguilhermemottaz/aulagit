@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Formularios + Css Flex</h1>
+    </div>
+    <form action="#" method="get">
+        <!--Todas as inputs devem estar entre <form> e </form>-->
+        <div>
+            <label for="coment">Comentario</label>
+        <textarea name="c" id="coment" cols="50" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="n">Nome</label>
+            <input type="text" name="n" id="Nome" maxlength="20" minlength="2">
+        </div>
+        <div>
+            <label for="fone">Telefone</label>
+            <input type="tel" name="t" id="fone">
+        </div>
+        <div>
+            <label for="senha">senha*</label>
+            <input type="password" name="s" id="senha" required>
+        </div>
+        <div>
+            <label for="mail">E-mail*</label>
+            <input type="email"name="e" id="mail" placeholder="email@emial.com">
+        </div>
+        <div>
+            <label for="nascimento">Data de nascimento</label>
+            <input type="date" name="nasc" id="nascimento">
+            <div>
+                <div>
+                    <label for="qtd">Quantidade</label>
+                    <input type="number" name="q" id="qtd"min=2>
+                </div>
+            </div>
+            <p>Deseja entrega?</p>
+            <label for="Sim">Sim</label>
+            <input type="radio" name="f" id="Sim"
+             value="Sim">
+            <label for="Não">Não</label>
+            <input type="radio" name="e" id="Não"
+            value="Não">
+        </div>
+        <div>
+                <p>Interesse Musical</p>
+                <label for="s">Samba</label>
+                <input type="checkbox" name="Samba" id="S" value="Samba">
+                <label for="r">Rock</label>
+                <input type="checkbox" name="Rock" id="r"
+                value="Rock">
+                <label for="Sr">Sertanejo</label>
+                <input type="checkbox" name="Sertanejo" id="Sr"
+                value="Sertanejo">
+                <div>
+                    <input type="submit" name="salvar"  id="sv"
+                    value="salvar">
+                </div>
+
+        </div>
+</body>
+</html>

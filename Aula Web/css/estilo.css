@@ -1,0 +1,26 @@
+label
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+    .titulo{
+        margin: 0 auto;
+        padding: 2%;
+    }
+
+    .alinhaform{
+        background-color: azure;
+        width: 70%;
+        margin: 0 auto;
+        margin-left: 26% auto;
+        margin-right: 26% auto;
+        padding: 3%;
+    }
+    label{
+        display: block;
+    }
